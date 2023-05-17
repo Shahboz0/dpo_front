@@ -1,0 +1,62 @@
+::ng-deep .mat-tab-header {
+  min-height: 5vh;
+  background: aquamarine;
+  color: rebeccapurple!important;
+  font-weight: bold;
+  font-size: 20px;
+}
+::ng-deep .mat-tab-labels {
+  justify-content: space-around;
+}
+main{
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+section{
+  width: 20vw;
+  overflow-y: scroll;
+}
+.custom-chart-1 {
+  height: 95vh;
+  width: 80vw;
+}
+.custom-chart-2 {
+  height: 95vh;
+  width: 40vw;
+}
+.custom-table{
+  width: 40vw;
+  overflow-y: scroll;
+}
+button{
+  width: 10%;
+  height: 10%;
+  border: none;
+  background: red;
+  color: #FFFFFF;
+}
+table{
+  width: 100%;
+}
+.menu-raw {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,.12);
+  padding-left: 10px;
+}
+.menu-raw:active {
+  background: #103C8B;
+  color: #FFFFFF;
+  transition: 0.01s;
+}
+.is-clicked {
+  color: white;
+  background: #103C8B;
+}
+button:disabled {
+  background: #ccc;
+  color: gray;
+}
